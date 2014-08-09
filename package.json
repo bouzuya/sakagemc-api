@@ -1,0 +1,41 @@
+{
+  "name": "sakagemc-api",
+  "version": "0.0.0",
+  "description": "An API that provide the sakagemc's photos.",
+  "scripts": {
+    "start": "coffee index.coffee",
+    "test": "mocha --require espower-coffee/guess --reporter spec test/**/*.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/sakagemc-api.git"
+  },
+  "keywords": [
+    "sakagemc",
+    "api"
+  ],
+  "author": {
+    "name": "bouzuya",
+    "mail": "m@bouzuya.net",
+    "url": "http://bouzuya.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/sakagemc-api/issues"
+  },
+  "homepage": "https://github.com/bouzuya/sakagemc-api",
+  "devDependencies": {
+    "espower-coffee": "^0.1.0",
+    "mocha": "^1.21.4",
+    "power-assert": "^0.7.2",
+    "sinon": "^1.10.3",
+    "supertest": "^0.13.0"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "express": "^4.8.2",
+    "flickrapi": "^0.3.23",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1"
+  }
+}
